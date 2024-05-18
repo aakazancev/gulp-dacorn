@@ -1,0 +1,111 @@
+// Добавляем нужный шрифт
+//@font-face {
+//  font-family: 'Inter';
+//  src: url('../fonts/inter/Inter-SemiBold.woff2');
+//  font-weight: 600;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Inter';
+//  src: url('../fonts/inter/Inter-Medium.woff2');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//@font-face {
+//  font-family: 'Inter';
+//  src: url('../fonts/inter/Inter-Regular.woff2');
+//  font-weight: 400;
+//  font-style: normal;
+//}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  vertical-align: baseline;
+  appearance: none;
+  outline: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+
+html {
+  color: #000;
+  //font-family: 'Inter'; тут тоже
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  background: #fff;
+  line-height: 1;
+  min-width: 360px;
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote {
+  &:before,
+  &:after {
+    content: '';
+    content: none;
+  }
+}
+q {
+  &:before,
+  &:after {
+    content: '';
+    content: none;
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  pointer-events: none;
+}
+
+
+.container-page {
+  max-width: 1344px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
