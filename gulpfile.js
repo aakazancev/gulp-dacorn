@@ -1,8 +1,8 @@
 import gulp from 'gulp';
 
 // Import tasks
-import './gulp/dev.mjs';
-import './gulp/docs.mjs';
+import './gulp/dev.js';
+import './gulp/docs.js';
 
 gulp.task(
   'dev',
